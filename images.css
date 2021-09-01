@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    background: rgb(255, 208, 0);
+    padding: 20px;
+    margin: 50px;
+}
+
+.text {
+    display: flex;
+    flex-direction: column;
+    background: chartreuse;
+    width: 30%;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 15px 0 0 15px;
+}
+
+span {
+    color: purple
+}
+
+.banner-image img {
+    height: 100%;
+    border-radius: 0 15px 15px 0;
+    filter: opacity(0.5);
+}
+
+.content1 {
+    display: flex;
+    flex-direction: column;
+}
+
+.content1 h1 p {
+    justify-content: space-around;
+}
+
+ul {
+    list-style: none;
+}
+
+.content2 {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 60px;
+}
